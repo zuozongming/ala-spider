@@ -1,0 +1,352 @@
+#!/usr/bin/env python
+# -*- coding: gb18030 -*-
+########################################################################
+# 
+# Copyright (c) 2014 Baidu.com, Inc. All Rights Reserved
+# 
+########################################################################
+ 
+'''
+File: url_downloader.py
+Author: liyudong(liyudong@baidu.com)
+Date: 2014/06/18 14:52:49
+'''
+
+import urllib2
+import urllib
+import cookielib
+import socket
+import time
+import random
+import json
+
+SOCKET_DEFAULT_TIMEOUT = 30
+
+class UrlDownloader:
+    '''
+    url download
+    '''
+
+    def __init__(self, site_file_path, timeout = None, retry_interval = 1, retry_times = 5, cookie = None):
+        '''
+        class constructor
+      
+        Args:
+            self :
+            timeout :
+            cookie :
+        Return:   
+        Raise: 
+        '''
+
+        # cookie
+        if cookie is None:
+            self.cookie = cookielib.LWPCookieJar() 
+        else:
+            self.cookie = cookie
+        opener = urllib2.build_opener(urllib2.HTTPRedirectHandler, 
+                urllib2.HTTPCookieProcessor(self.cookie))
+        urllib2.install_opener(opener)
+        # socket timeout
+        if timeout is None:
+            timeout = SOCKET_DEFAULT_TIMEOUT
+            socket.setdefaulttimeout(timeout)
+
+        self.retry_times = retry_times
+        self.retry_interval = retry_interval
+        self.host_list = []
+        with open(site_file_path, "r") as f:
+            for line in f:
+                line = line.strip("\n\r").strip()
+                self.host_list.append(line)
+                
+    def clean_cookie(self):
+        '''
+        clean cookie
+      
+        Args:
+            self :
+        Return:   
+        Raise: 
+        '''
+
+        self.cookie = cookielib.LWPCookieJar() 
+
+    def download(self, url, url_data = None):
+        '''
+        download html page
+      
+        Args:
+            self :
+            url :
+            data :
+        Return: (error_msg, html, redirected_url)
+        Raise: 
+        '''
+
+        query = url
+
+        redirected_url = None
+        error_msg = None
+        result = None
+
+        result = {}
+        result['query'] = query
+        result['sample_id'] = url_data['sid']
+
+        error_msg, video_data, redirected_url = self._download_video_result(query, url_data)
+        result['error_msg'] = error_msg
+        result['data'] = video_data
+
+        return error_msg, result, redirected_url
+
+    def _download_video_result(self, query, data = None):
+        retry_num = self.retry_times
+
+        redirected_url = None
+        error_msg = None
+        html = None
+
+        vdo_srcid_blacklist = {
+                21018 : 1
+                }
+        vdo_srcid_dict = {
+                6869 : 1
+                }
+        vdo_tplt_blacklist = {
+                'naturalresult' : 1
+                }
+        vdo_tplt_dict = {
+                "zx_tv_video" : 1,
+                "movievideo" : 1,
+                "vd_tamasha" : 1,
+                "vd_comic" : 1,
+                "vd_sitcom" : 1,
+                "seriesmovie" : 1,
+                "tv_video" : 1,
+                "zx_new_tvideo" : 1,
+                "zx_new_mvideo" : 1,
+                #"hotmovie" : 1,
+                "video_alone" : 1,
+                "zx_tamasha" : 1
+                }
+        video_data = {}
+        for idx in range(0, retry_num):
+            if idx > 0 and self.retry_interval > 0:
+                time.sleep(self.retry_interval)
+                pass
+            error_msg = None
+            host_idx = random.randrange(0, len(self.host_list))
+            host = self.host_list[host_idx]
+
+            download_url = "http://%s/s?"%(host)
+            params = {}
+            if data is not None:
+                params = data
+            params['wd'] = query.decode("GB18030").encode("UTF-8")
+            params['ie'] = "UTF-8"
+
+            download_url += urllib.urlencode(params)
+            error_msg, html, redirected_url = self._download(download_url)
+            if error_msg is not None:
+                continue
+            try:
+                json_data = json.loads(html)
+            except ValueError as e:
+                continue
+            for result_idx, result in enumerate(json_data['results']):
+                item_data = result['data']
+                #过滤非特型结果
+                if ('SrcId' not in item_data or 
+                        'resultData' not in item_data or 
+                        'tplData' not in item_data['resultData']):
+                    continue
+                srcid = int(item_data['SrcId'])
+                if srcid in vdo_srcid_blacklist:
+                    continue
+                if 'StdStg' not in item_data:
+                    stdstg = ""
+                else:
+                    stdstg = item_data['StdStg']
+
+                if 'StdStl' not in item_data:
+                    stdstl = ""
+                else:
+                    stdstl = item_data['StdStl']
+                position = result_idx
+                url = result['url']
+                title = result['title']
+                if 'resultData' not in item_data or 'tplData' not in item_data['resultData']:
+                    continue
+                ext_data = item_data['resultData']['extData']
+                tpl_data = item_data['resultData']['tplData']
+                if 'tplt' not in ext_data:
+                    tplt = ""
+                else:
+                    tplt = ext_data['tplt']
+                if len(title) == 0 and 'title' in tpl_data and len(tpl_data['title']) > 0:
+                    title = tpl_data['title']
+                    
+                video_type = 0
+
+                if tplt in vdo_tplt_blacklist:
+                    video_type = 0
+                elif tplt in vdo_tplt_dict:
+                    video_type = 1
+                elif srcid in vdo_srcid_dict:
+                    video_type = 1
+                elif 'big_poster' in tpl_data:
+                    video_type = 1
+                elif ('title' in tpl_data and isinstance(tpl_data['title'], basestring) and
+                        tpl_data['title'].find(u"高清视频在线观看") > 0):
+                    video_type = 1
+
+                if video_type == 0:
+                    continue
+
+                video_data['srcid'] = srcid
+                video_data['stdstg'] = stdstg
+                video_data['stdstl'] = stdstl
+                video_data['tplt'] = tplt
+                video_data['position'] = position
+                video_data['url'] = url
+                video_data['title'] = title
+                video_data['tplData'] = tpl_data
+
+                video_data['tplData'].pop("brief", None)
+                video_data['tplData'].pop("brief_short", None)
+                video_data['tplData'].pop("summary", None)
+                video_data['tplData'].pop("type_new", None)
+                video_data['tplData'].pop("al_title", None)
+                video_data['tplData'].pop("al_title_new", None)
+                video_data['tplData'].pop("al_slogan", None)
+
+                key_filter_map = {
+                        'loc' : 1,
+                        'se_class' : 1,
+                        'se_uri' : 1,
+                        'se_sitekey' : 1,
+                        'se_lang' : 1,
+                        'se_area' : 1,
+                        'se_year' : 1,
+                        'se_year' : 1,
+                        'show_name' : 1,
+                        'se_director' : 1,
+                        'url' : 1,
+                        'title' : 1,
+                        'latestEp' : 1,
+                        'totalEp' : 1,
+                        'newest_episode' : 1,
+                        'videoPlay' : 1,
+                        'vlink' : 1,
+                        'station' : 1,
+                        'se_sitename' : 1,
+                        'se_maxepisode' : 1,
+                        'director' : 1,
+                        'actor' : 1,
+                        'episode' : 1
+                        }
+                if 'result' in video_data['tplData']:
+                    for res_idx, res in enumerate(video_data['tplData']['result']):
+                        to_remove_key_list = []
+                        for res_k, res_v in res.iteritems():
+                            if res_k not in key_filter_map:
+                                to_remove_key_list.append(res_k)
+                        for remove_key in to_remove_key_list:
+                            video_data['tplData']['result'][res_idx].pop(remove_key, None)
+                return error_msg, video_data, redirected_url
+        return error_msg, video_data, redirected_url
+
+    def _download(self, url, data = None):
+        '''
+        download html page
+      
+        Args:
+            self :
+            url :
+            data :
+        Return: (error_msg, html, redirected_url)
+        Raise: 
+        '''
+
+        redirected_url = None
+        error_msg = None
+        html = None
+        # 1. URL Request Head
+        user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
+        headers = { 'User-Agent' : user_agent }
+        if data is not None:
+            req = urllib2.Request(url, urllib.urlencode(data), headers)
+        else:
+            req = urllib2.Request(url, data, headers)
+        # 2. URL Request
+        try:
+            response = urllib2.urlopen(req)
+        except urllib2.URLError as e:
+            error_msg = 'url[%s], '%(url)
+            if hasattr(e, 'reason'):
+                error_msg += 'network-error: %s'%(e.reason)
+            elif hasattr(e, 'code'):
+                error_msg += 'server-error, code:%s'%(e.code)
+            else:
+                error_msg += 'other-error: %s'%(e)
+        except urllib2.HTTPError as e:
+            error_msg = 'url[%s], '%(url)
+            if hasattr(e, 'reason'):
+                error_msg += 'network-error: %s'%(e.reason)
+            elif hasattr(e, 'code'):
+                error_msg += 'server-error, code:%s'%(e.code)
+            else:
+                error_msg += 'other-error: %s'%(e)
+        except socket.error as e:
+            error_msg = 'url[%s], '%(url)
+            if hasattr(e, 'reason'):
+                error_msg += 'network-error: %s'%(e.reason)
+            elif hasattr(e, 'code'):
+                error_msg += 'server-error, code:%s'%(e.code)
+            else:
+                error_msg += 'other-error: %s'%(e)
+        except KeyboardInterrupt as e:
+            error_msg = 'url: %s, '%(url)
+            error_msg += 'key board interrupt'
+        #except:
+        #    error_msg = 'url: %s, '%(url)
+        #    error_msg += 'urlopen-error'
+        
+        # 3. Read Html 
+        if error_msg is not None:
+            return error_msg, html, redirected_url
+        try:
+            html = response.read()
+        except KeyboardInterrupt as e:
+            error_msg = 'url: %s, '%(url)
+            error_msg += 'key board interrupt'
+        except:
+            error_msg = 'url: %s, '%(url)
+            error_msg += 'reading-error'
+
+        nurl = response.geturl()
+        if url != nurl:
+            redirected_url = nurl
+        else:
+            redirected_url = None            
+        
+        return error_msg, html, redirected_url
+
+
+if __name__ == "__main__":
+    url = "爱情公寓"
+    downloader = UrlDownloader()
+    error_msg, html, redirect_url =  downloader.download(url)
+    print html
+
+#    url = "历劫俏佳人"
+#    downloader = UrlDownloader()
+#    error_msg, html, redirect_url =  downloader.download(url)
+#    print html
+#    url = "敢死队2"
+#    downloader = UrlDownloader()
+#    error_msg, html, redirect_url =  downloader.download(url)
+#    print html
+
+    

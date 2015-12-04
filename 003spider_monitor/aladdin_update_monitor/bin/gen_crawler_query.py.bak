@@ -1,0 +1,70 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+########################################################################
+# 
+# Copyright (c) 2014 Baidu.com, Inc. All Rights Reserved
+# 
+########################################################################
+ 
+"""
+File: gen_crawler_query.py
+Author: yudonglee(yudonglee@baidu.com)
+Date: 2014/11/11 23:20:15
+"""
+import logging
+import argparse
+import ConfigParser
+import sys
+import os
+
+if __name__ == "__main__":
+    #parse arguments
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-i", dest = "card_file_path", required = True, help = "¿¨Æ¬¼à¿ØÅäÖÃ")
+    parser.add_argument("-o", dest = "output_path", required = True, help = "Êä³öÎÄ¼þÂ·¾¶")
+    args = parser.parse_args()
+
+    #logging
+    log_path = "../log/"
+    log_name = "gen_crawler_query"
+    logger = logging.getLogger(log_name)
+    #logger.setLevel(logging.DEBUG) 
+    logger.setLevel(logging.INFO) 
+
+    formatter = logging.Formatter('%(levelname)s: %(asctime)s: %(name)s %(process)s ' + 
+        '[%(filename)s:%(lineno)s] %(message)s')  
+
+    fh = logging.FileHandler(log_path + log_name + ".log")  
+    fh.setLevel(logging.DEBUG)
+    fh.setFormatter(formatter) 
+    logger.addHandler(fh)
+
+
+    line_counter = 0
+    card_file_handler = open(args.card_file_path, "r")
+
+    query_dict = {}
+    for line in card_file_handler:
+        line_counter += 1
+        line = line.rstrip("\r\n ")
+        cols = line.split("\t")
+        srcid = int(cols[0])
+        sample_id = int(cols[1])
+        query_num = int(cols[2])
+        for idx in range(3, 3 + query_num):
+            query = cols[idx]
+            if query not in query_dict:
+                query_dict[query] = {}
+            query_dict[query][sample_id] = 1
+    try:
+        output_file = open(args.output_path, 'w')
+    except IOError as e:
+        logger.warning("fail to open file[%s]" % args.output_path) 
+
+    for query_k, sample_dict_v in query_dict.iteritems():
+        if len(sample_dict_v) == 0 or sample_dict_v is None:
+            continue
+        sample_str = "%d" % (len(sample_dict_v))
+        for sid_k, sid_v in sample_dict_v.iteritems():
+            sample_str += "\t%d" % (sid_k)
+        output_file.write("%s\t%s\n"%(query_k, sample_str))

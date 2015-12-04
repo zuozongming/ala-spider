@@ -1,0 +1,14 @@
+;抓取任务配置
+[plugin]
+content_parser_module: video_content_parser
+content_parser_class: VideoContentParser
+[task_config]
+url_param: tn=SE_testmonitor_4spqbq4b ;抓取url参数
+site_file_path: ../conf/site.dict ; 站点文件路径 
+site_file_only_path: ../conf/site_only.dict ;单独文件路径
+query_file_path: ../data/query.dict ; query文件路径 
+result_file_path: ../data/result.dict ; 抓取结果存储目录 
+download_thread_count: 3 ; 抓取线程数
+save_thread_count: 1 ; 保存线程数
+crawl_interval: 0 ; 抓取间隔. 单位：秒 
+crawl_timeout: 1 ; 抓取超时. 单位：秒 

@@ -1,0 +1,38 @@
+#!/bin/bash
+process_num=200
+digit_num=3
+PYTHON_BIN="/home/tools/tools/python/2.7.2/64/bin/python"
+
+rm crawl.log*
+crawl_conf_path="../conf/crawler.conf"
+query_file_path="../data/query.dict"
+result_file_path="../data/result.dict"
+dict_suffix=".sub_"
+total=`wc -l < ${query_file_path}`
+workload=$((total / process_num + 1))
+rm ${query_file_path}${dict_suffix}*
+rm ${result_file_path}${dict_suffix}*
+split -l ${workload} -d ${query_file_path} -a ${digit_num} ${query_file_path}${dict_suffix}
+for i in `seq 1 $process_num`
+do
+    start=$((1 + (i - 1) * workload))
+    sub_file_suffix=`printf "%0${digit_num}d" ${i}`
+    sub_query_file_path=${query_file_path}${dict_suffix}${sub_file_suffix}
+    sub_result_file_path=${result_file_path}${dict_suffix}${sub_file_suffix}
+    echo $sub_query_file_path $sub_result_file_path
+    $PYTHON_BIN aladdin_crawler.py -c ${crawler_conf_path} -q ${sub_query_file_path} -o ${sub_result_file_path} &
+done
+wait
+cat "${result_file_path}${dict_suffix}*" > ${result_file_path}
+result_num=`wc -l < ../data/result.dict`
+min_result_num=100
+if [ $result_num -le $min_result_num ]; then
+	echo "result file size too small: $result_num -le $min_result_num"
+    exit 1
+fi
+
+mv ../data/result.dict ../data/result.dict.release
+md5sum ../data/result.dict.release > ../data/result.dict.release.md5
+today=`date +"%Y%m%d"`
+cp '../data/result.dict.release' "../data/result.dict.release.$today"
+cp '../data/result.dict.release.md5' "../data/result.dict.release.md5.$today"

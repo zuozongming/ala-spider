@@ -1,0 +1,735 @@
+1	综艺	女神的新衣	expect	{}
+2	综艺	爸爸去哪儿第二季	expect	{}
+3	电视剧	天天有喜	expect	{}
+4	电视剧	飞虎2粤语	expect_new_no	{}
+5	电视剧	封神榜老版全集	expect_new_no	{}
+6	综艺	天天向上	expect	{}
+7	电视剧	我是特种兵	uri_not_match	{"new_uri": ["98cedf6429d0bc5f78f776e4040a0bce", "66c207a9461cf8c1f8742f35c3f33df5", "323013a06946a9325329b56993740439"], "old_uri": []}
+8	电影	触不可及	expect	{}
+9	电影	大电影 2006 电影	expect	{}
+10	综艺	一年级	expect_new_no	{}
+11	动漫	风之圣痕	expect	{}
+12	综艺	我们结婚了	expect	{}
+13	电影	蜘蛛侠	expect_new_no	{}
+14	电视剧	绝地枪王全集在线观看	expect_new_no	{}
+15	综艺	江苏卫视直播	expect_new_no	{}
+16	电视剧	把爱带回家 电视剧	expect	{}
+17	电影	忍者神龟	expect_new_no	{}
+18	综艺	非常完美	expect	{}
+19	动漫	刀剑神域第二季	new_add	{}
+20	综艺	我是演说家1	expect_new_no	{}
+21	动漫	斩赤红之瞳	expect	{}
+22	电影	正骨	series_lack_important	{"new_site": [["m1905.com", "iqiyi.com", "letv.com"]], "important_check": "pps.tv", "old_vaild_list": ["m1905.com", "pps.tv"], "new_vaild_list": ["m1905.com", "iqiyi.com", "letv.com"], "old_site": [["电影网", "PPS", "电影网", "PPS"]]}
+23	动漫	狼少女与黑王子动漫	expect_new_no	{}
+24	电视剧	北平无战事	expect_new_no	{}
+25	电影	喜马拉雅	expect	{}
+26	电视剧	电视剧领袖全集	expect_new_no	{}
+27	电视剧	我是特种兵之利刃出鞘	uri_not_match	{"new_uri": ["66c207a9461cf8c1f8742f35c3f33df5"], "old_uri": []}
+28	综艺	黄圣依	new_add	{}
+29	动漫	猫的报恩	expect_new_no	{}
+30	电影	蓝可儿	expect_new_no	{}
+31	电影	同桌的你	expect	{}
+32	电视剧$$$电影	毒狼	uri_not_match	{"new_uri": ["b7f0a37636d54d2247e8e4e6c134ba7"], "old_uri": []}
+33	电影	美国队长2 2014 电影	new_add	{}
+34	动漫	漆黑的子弹	expect	{}
+35	综艺	暴走大事件	expect	{}
+36	电影	反抗军	expect	{}
+37	电影	闪闪红星电影	expect_new_no	{}
+38	综艺	智慧树	expect_new_no	{}
+39	综艺	舌尖上的中国第二季	site_less	{"new_site": [["iqiyi.com", "sohu.com", "pptv.com"]], "old_vaild_list": ["iqiyi.com", "sohu.com", "letv.com", "pptv.com"], "new_vaild_list": ["iqiyi.com", "sohu.com", "pptv.com"], "old_site": [["爱奇艺", "搜狐", "乐视", "PPTV", "CNTV"]]}
+40	综艺	智慧树2014全集播放	expect_new_no	{}
+41	电影	鲁迅	expect	{}
+42	综艺	爱玩客	uri_not_match	{"new_uri": ["2848be5f3125f86ab026db2e4ec2ed77"], "old_uri": ["711ede04515266faef95122ef848e208"]}
+43	电影	小飞侠彼得潘	new_add	{}
+44	动漫	天使与龙的轮舞	expect_new_no	{}
+45	电视剧	初恋女友俱乐部	expect_new_no	{}
+46	电影	命运派对	expect	{}
+47	电影	同桌的你	expect	{}
+48	综艺	动物世界全集	expect_new_no	{}
+49	电影	同桌的你	expect	{}
+50	动漫	西游记2010版全集	expect	{}
+51	电影	大话天仙	expect	{}
+52	动漫	花园宝宝	new_series	{}
+53	综艺	爸爸去哪儿	expect	{}
+54	电视剧	皆大欢喜古装版国语	expect_new_no	{}
+55	动漫	小马宝莉动画片全集	series_lack_important	{"new_site": [["iqiyi.com", "sohu.com", "youku.com"], ["iqiyi.com", "sohu.com"], ["iqiyi.com", "sohu.com"], ["sohu.com", "youku.com", "iqiyi.com", "pps.tv", "letv.com"]], "important_check": "letv.com", "old_vaild_list": ["iqiyi.com", "sohu.com", "letv.com"], "new_vaild_list": ["iqiyi.com", "sohu.com", "youku.com"], "old_site": [["iqiyi.com", "sohu.com", "letv.com", "kankan.com"], ["iqiyi.com", "sohu.com", "letv.com", "kankan.com"], ["iqiyi.com", "sohu.com", "letv.com", "kankan.com"], ["iqiyi.com", "sohu.com", "letv.com", "kankan.com"]]}
+56	综艺	奔跑吧兄弟	expect	{}
+57	电影	天际浩劫	expect_new_no	{}
+58	电影	x战警3 背水一战	expect_new_no	{}
+59	综艺	天津妞犀利吐槽	new_add	{}
+60	电视剧	闪电侠	expect_new_no	{}
+61	动漫	七龙珠第一部	expect	{}
+62	电视剧	rh阳性	expect	{}
+63	电影	忍者神龟3	expect	{}
+64	电视剧	douyu	new_series	{}
+65	电影	同桌的你	expect	{}
+66	综艺	奔跑吧兄弟	expect	{}
+67	综艺	快乐大本营 杨威	expect_new_no	{}
+68	电影	同桌的你	expect	{}
+69	电影	星运里的错	new_add	{}
+70	动漫	名侦探柯南	series_lack_important	{"new_site": [["iqiyi.com", "sohu.com", "letv.com", "pptv.com", "youku.com", "tudou.com"]], "important_check": "pps.tv", "old_vaild_list": ["iqiyi.com", "sohu.com", "pps.tv"], "new_vaild_list": ["iqiyi.com", "sohu.com", "letv.com", "pptv.com", "youku.com", "tudou.com"], "old_site": [["iqiyi.com", "sohu.com", "kankan.com", "pps.tv"]]}
+71	电影	惊天危机	series_lack_important	{"new_site": [["sohu.com", "youku.com"]], "important_check": "iqiyi.com", "old_vaild_list": ["sohu.com", "iqiyi.com"], "new_vaild_list": ["sohu.com", "youku.com"], "old_site": [["搜狐", "爱奇艺"]]}
+72	电视剧	爱情自有天意	new_series	{}
+73	综艺	running man	expect	{}
+74	综艺	奔跑吧兄弟	expect	{}
+75	综艺	今日关注	uri_not_match	{"new_uri": ["5ce90213ddc7698ee12853e5f45a0858"], "old_uri": []}
+76	None	非诚勿扰 江苏卫视	expect_new_no	{}
+77	电视剧	爱情公寓4	expect	{}
+78	动漫	鬼泣	expect	{}
+79	综艺	running man	expect	{}
+80	电视剧	妻子的秘密 电视剧	expect	{}
+81	综艺	焦点访谈	expect_new_no	{}
+82	电视剧	因为爱情有奇迹	expect_new_no	{}
+83	电影	潜艇总动员4	expect	{}
+84	电影	命运派对	new_add	{}
+85	电影	命运派对	expect	{}
+86	电影	神探	expect	{}
+87	综艺	传奇故事	expect	{}
+88	None	我是歌手3	expect_new_no	{}
+89	电视剧	我的父亲是板凳	expect	{}
+90	综艺	爱情保卫战最新一期	expect_new_no	{}
+91	电视剧	来自星星的你	expect	{}
+92	电视剧	马向阳下乡全集	expect	{}
+93	电视剧	野鸭子 电视剧	expect_both_series	{}
+94	电影	街舞	new_add	{}
+95	电视剧	爱的新生	expect	{}
+96	电视剧$$$电影	红高粱	uri_not_match	{"new_uri": ["9d996a3d39fe2a22da1e90f7527bcbdb"], "old_uri": []}
+97	电影	大话西游	expect_new_no	{}
+98	动漫	超神游戏 动漫	expect	{}
+99	电影	哥斯拉	uri_not_match	{"new_uri": ["abbf3c84c89685ccb0cb81a6744e0438"], "old_uri": []}
+100	综艺	明星到我家	expect_new_no	{}
+101	动漫	火影忍者	expect	{}
+102	电视剧	16个夏天	expect	{}
+103	电视剧	因为爱情有奇迹	expect_new_no	{}
+104	电视剧	因为爱情有奇缘大结局	expect_new_no	{}
+105	电影	一生一世 电影	expect	{}
+106	动漫	口袋妖怪xy	expect	{}
+107	电视剧	浪漫满屋泰国版	expect	{}
+108	动漫	斩赤红之瞳	expect	{}
+109	综艺	wwe	site_less	{"new_site": [["iqiyi.com"]], "old_vaild_list": ["iqiyi.com", "sohu.com"], "new_vaild_list": ["iqiyi.com"], "old_site": [["爱奇艺", "搜狐"]]}
+110	电视剧	武工队传奇2	expect	{}
+111	动漫	akb48	new_add	{}
+112	综艺	马鼎盛	expect_new_no	{}
+113	电影	四大名捕	expect_new_no	{}
+114	综艺	exo	new_add	{}
+115	电影	岁月神偷	expect	{}
+116	电影	恶灵骑士	expect_new_no	{}
+117	电视剧	陨落星辰	expect_both_series	{}
+118	电视剧	春日	uri_not_match	{"new_uri": ["7c08f757dde6bfc98f6393d75ea18ef0"], "old_uri": []}
+119	电影	黄金大劫案	expect	{}
+120	电影	同桌的你	expect	{}
+121	电影	天际浩劫	expect_new_no	{}
+122	电视剧	斗鱼	new_series	{}
+123	电影	乱伦电影	new_add	{}
+124	电视剧	tf家族	expect_new_no	{}
+125	动漫	游戏王	expect	{}
+126	动漫	猫抓老鼠	expect_new_no	{}
+127	电视剧	火蓝刀锋全集	expect	{}
+128	电影	潜艇总动员4	expect	{}
+129	电视剧	寻秦记	expect	{}
+130	电视剧$$$综艺	穿越火线	uri_not_match	{"new_uri": ["b1e9712f99a2c7bee98db1ad8516e285"], "old_uri": []}
+131	电影	大话西游1(月光宝盒)电影	expect_new_no	{}
+132	动漫	豆豆	expect	{}
+133	电视剧	美人制造	expect_new_no	{}
+134	电视剧	闪电侠	expect_new_no	{}
+135	综艺	exo	new_add	{}
+136	电视剧	钢铁人	expect	{}
+137	电视剧	行尸走肉第五季	expect_new_no	{}
+138	电影	苹果	new_add	{}
+139	电视剧$$$动漫	流星花园	uri_not_match	{"new_uri": ["d8a59163195c822cea897e00712fcd6d"], "old_uri": []}
+140	电影	小时代3	expect	{}
+141	电影	林肯律师	expect	{}
+142	动漫	广播剧	new_add	{}
+143	电影	突破	new_add	{}
+144	电影	超凡蜘蛛侠	expect	{}
+145	综艺	中国正在听	expect_new_no	{}
+146	电视剧	因为爱情有多美	expect	{}
+147	动漫	中国惊奇先生	expect	{}
+148	动漫	铠甲勇士	expect_both_series	{}
+149	电视剧	绝地枪王	expect_new_no	{}
+150	电视剧	新雪豹	expect	{}
+151	电影	同桌的你	expect	{}
+152	电视剧	逍遥法外	series_lack_important	{"new_site": [["sohu.com", "iqiyi.com", "youku.com", "tudou.com", "qq.com"]], "important_check": "letv.com", "old_vaild_list": ["sohu.com", "iqiyi.com", "letv.com"], "new_vaild_list": ["sohu.com", "iqiyi.com", "youku.com", "tudou.com", "qq.com"], "old_site": [["sohu.com", "iqiyi.com", "letv.com"]]}
+153	电影	黄飞鸿	new_add	{}
+154	动漫	神兽金刚	new_series	{}
+155	电视剧	点金胜手 电视剧	expect	{}
+156	电视剧	少林寺传奇3 电视剧	site_less	{"new_site": [["letv.com", "fun.tv"]], "old_vaild_list": ["letv.com", "pptv.com", "fun.tv"], "new_vaild_list": ["letv.com", "fun.tv"], "old_site": [["letv.com", "pptv.com", "fun.tv", "baofeng.com"]]}
+157	电影	钢铁侠1电影	expect	{}
+158	电影	金馆长	expect_new_no	{}
+159	电视剧	行尸走肉	series_less	{"new_site": [["tudou.com", "youku.com"], ["youku.com"], ["tudou.com", "youku.com"], ["tudou.com", "youku.com"]], "old_site": [["tudou.com"], ["tudou.com"], ["youku.com"], ["tudou.com"], ["tudou.com"]]}
+160	动漫	神灵狩	expect	{}
+161	电影$$$动漫	犬夜叉剧场版	uri_not_match	{"new_uri": ["1f144718b2c6ddce53823fe224053d3", "d5daf1e655df643b4a6ea7ebc17f488e", "d43f04e654af991e2274bfb1523ead43", "e8626338d3cdd496f63d0848d0a4cc99"], "old_uri": ["30259d6421bf3361498616ec434fefd"]}
+162	电影	熊出没之夺宝熊兵	expect	{}
+163	电影$$$动漫	luokewangguo	uri_not_match	{"new_uri": ["7f66ab996358ee2b747dc5c42e388db0"], "old_uri": ["3d886e1b59e81bb2ae7e4c2ffd30323a"]}
+164	电影	雷锋	expect	{}
+165	电视剧	绿光森林电视剧	uri_not_match	{"new_uri": ["fbe0daf623f8100c713a16d4ae2f3abc"], "old_uri": []}
+166	电视剧	四大萌捕 电视剧	expect	{}
+167	电视剧	士兵突击	expect	{}
+168	电视剧	电视剧使命全集	new_add	{}
+169	综艺	奔跑吧兄弟第一期	expect_new_no	{}
+170	综艺	奔跑吧兄弟第三期	expect_new_no	{}
+171	电视剧	花样少年少女	series_lack_important	{"new_site": [["letv.com", "youku.com"]], "important_check": "pptv.com", "old_vaild_list": ["letv.com", "pptv.com"], "new_vaild_list": ["letv.com", "youku.com"], "old_site": [["letv.com", "pptv.com", "wasu.cn"]]}
+172	电视剧	小宝和老财 电视剧	expect	{}
+173	电视剧	斗鱼	new_series	{}
+174	综艺	梦之声第二季直播	expect_new_no	{}
+175	电影	拿破仑	uri_not_match	{"new_uri": ["59262e5c23227d3ec94c898c364afee3"], "old_uri": []}
+176	电影	星际拾荒者	expect	{}
+177	电影	四大名捕3	expect	{}
+178	电视剧$$$电影	风中奇缘	uri_not_match	{"new_uri": ["6d068be3fe5705f269b9d784f8c6899"], "old_uri": []}
+179	动漫	女皇之刃	expect_new_no	{}
+180	电视剧	养父的花样年华	expect_new_no	{}
+181	电视剧	行尸走肉第五季	expect_new_no	{}
+182	综艺	财经郎眼	site_less	{"new_site": [["iqiyi.com"]], "old_vaild_list": ["iqiyi.com", "pps.tv"], "new_vaild_list": ["iqiyi.com"], "old_site": [["爱奇艺", "PPS"]]}
+183	电视剧	铁血武工队	expect	{}
+184	电影	其实你不懂他的心	new_add	{}
+185	电视剧	忠奸人	expect	{}
+186	动漫	东京食尸鬼	expect	{}
+187	综艺	天津妞犀利吐槽	new_add	{}
+188	电视剧	瞧这一家子电视剧全集	expect	{}
+189	电视剧$$$电影	风中奇缘	uri_not_match	{"new_uri": ["6d068be3fe5705f269b9d784f8c6899"], "old_uri": []}
+190	综艺	天天向上	expect	{}
+191	电影	动作片国语电影	expect_new_no	{}
+192	电影	暮光之城3	expect	{}
+193	电视剧	半路父子电视剧	expect_new_no	{}
+194	电影	触不可及电影	expect	{}
+195	电影	僵尸先生	expect_new_no	{}
+196	动漫$$$电影	蜘蛛侠1国语	uri_not_match	{"new_uri": ["2f148f7e72092d106ae0a0b3473503a5"], "old_uri": ["a0fcccbcf65fbe34a25b374270a5a10f"]}
+197	电影	开心鬼3电影	expect	{}
+198	动漫	刀剑神域	expect_both_series	{}
+199	电影	触不可及	expect	{}
+200	电影	同桌的你	expect	{}
+201	综艺	明星家族的2天1夜	expect	{}
+202	电影	变形金刚4	expect_new_no	{}
+203	电影	美国死亡谷	expect_new_no	{}
+204	电影	大话西游	expect_new_no	{}
+205	电影	喜剧之王1 电影	expect	{}
+206	电影	深渊异型	expect	{}
+207	动漫	复仇者联盟2	expect	{}
+208	电影	火烧岛	expect	{}
+209	电视剧	美国恐怖故事	series_less	{"new_site": [["iqiyi.com", "sohu.com", "letv.com", "youku.com", "tudou.com", "qq.com"], ["iqiyi.com", "sohu.com", "letv.com", "qq.com"], ["iqiyi.com", "sohu.com", "letv.com", "youku.com", "qq.com"]], "old_site": [["sohu.com", "iqiyi.com", "letv.com"], ["sohu.com", "iqiyi.com", "letv.com", "qq.com"], ["sohu.com", "iqiyi.com", "letv.com", "qq.com"], ["sohu.com", "iqiyi.com", "letv.com", "qq.com"]]}
+210	综艺	奔跑吧兄弟	expect	{}
+211	综艺	我们都爱笑	expect	{}
+212	动漫	猫和老鼠动画片全集国语	new_add	{}
+213	电影	超体 电影	expect_new_no	{}
+214	电视剧	妻子的秘密	expect	{}
+215	电视剧	奇葩一家人	expect_new_no	{}
+216	电视剧	大秦帝国	expect_new_no	{}
+217	电影	移动迷宫 电影	expect_new_no	{}
+218	综艺	奔跑吧兄弟	expect	{}
+219	动漫	高达	expect	{}
+220	电视剧	最后的舞请与我一起	expect_new_no	{}
+221	电视剧	对我而言可爱的她	expect_new_no	{}
+222	动漫	功夫熊猫盖世传奇	expect_new_no	{}
+223	综艺	running man	expect	{}
+224	电影	木乃伊3	expect	{}
+225	动漫	海贼王动画	expect	{}
+226	综艺	中国好声音第三季	uri_not_match	{"new_uri": ["897d26447f9ca5548f4cef09bda8cef7"], "old_uri": []}
+227	电影	天空之城	expect_new_no	{}
+228	电影	李白	new_add	{}
+229	综艺	我是演说家 北京卫视	expect_new_no	{}
+230	电影	生化危机	expect_new_no	{}
+231	动漫	进击的小学生全集	new_add	{}
+232	电视剧	18进禁不禁全集	expect_new_no	{}
+233	电影	鬼影	expect	{}
+234	电视剧	行尸走肉	series_less	{"new_site": [["tudou.com", "youku.com"], ["youku.com"], ["tudou.com", "youku.com"], ["tudou.com", "youku.com"]], "old_site": [["tudou.com"], ["tudou.com"], ["youku.com"], ["tudou.com"], ["tudou.com"]]}
+235	动漫	海贼王	expect	{}
+236	综艺	两天一夜	uri_not_match	{"new_uri": ["8aa20e696caf2447f5b015424604d137"], "old_uri": []}
+237	电视剧	乡村名流	expect	{}
+238	电视剧	因为爱情有奇迹	expect_new_no	{}
+239	动漫	怪盗小丑	expect_new_no	{}
+240	电影	亲爱的小孩	new_add	{}
+241	电视剧	我的娜塔莎全集在线观看	expect	{}
+242	电视剧	行尸走肉	series_less	{"new_site": [["tudou.com", "youku.com"], ["youku.com"], ["tudou.com", "youku.com"], ["tudou.com", "youku.com"]], "old_site": [["tudou.com"], ["tudou.com"], ["youku.com"], ["tudou.com"], ["tudou.com"]]}
+243	电影	一个人的武林 电影	expect_new_no	{}
+244	电影	阳光姐妹淘	site_less	{"new_site": [["sohu.com"]], "old_vaild_list": ["sohu.com", "fun.tv"], "new_vaild_list": ["sohu.com"], "old_site": [["搜狐", "风行网", "暴风", "芒果TV"]]}
+245	动漫	宝石宠物lady	expect	{}
+246	电影	大电影	expect	{}
+247	动漫	海贼王	expect	{}
+248	电影	x战警(逆转未来)电影	expect	{}
+249	综艺	每日农经	expect_new_no	{}
+250	综艺	一年级	expect_new_no	{}
+251	动漫	东京食尸鬼	expect	{}
+252	电影	死亡的崛起	new_add	{}
+253	电影	林肯律师	expect	{}
+254	电影	三傻大闹宝莱坞	expect_new_no	{}
+255	电视剧	爱情公寓4	expect	{}
+256	电影	仙境之桥	expect	{}
+257	电影	黑暗中的舞者	expect	{}
+258	电视剧	敌营十八年	expect_both_series	{}
+259	电影	星际拾荒者	expect	{}
+260	动漫	刀剑神域第一季	expect	{}
+261	电视剧	我女儿是花子	expect	{}
+262	综艺	减肥操	expect_new_no	{}
+263	电视剧	大秦帝国之纵横	expect_new_no	{}
+264	动漫	月刊少女野崎君	new_add	{}
+265	动漫	哝哝日和	expect	{}
+266	电视剧	铁血尖刀 电视剧	expect	{}
+267	电视剧$$$电影	风中奇缘	uri_not_match	{"new_uri": ["6d068be3fe5705f269b9d784f8c6899"], "old_uri": []}
+268	电视剧	假扮女佣国语版全集	site_less	{"new_site": [["letv.com"]], "old_vaild_list": ["pps.tv", "letv.com"], "new_vaild_list": ["letv.com"], "old_site": [["PPS", "乐视"]]}
+269	电视剧	狙击手	expect	{}
+270	综艺	爸爸去哪儿	expect	{}
+271	电视剧	北平无战事	expect_new_no	{}
+272	综艺	军情解码	series_lack_important	{"new_site": [["iqiyi.com", "pptv.com", "letv.com"]], "important_check": "pps.tv", "old_vaild_list": ["iqiyi.com", "letv.com", "pps.tv"], "new_vaild_list": ["iqiyi.com", "pptv.com", "letv.com"], "old_site": [["爱奇艺", "乐视", "北京网络台", "PPS"]]}
+273	电影	举起手来1	expect	{}
+274	动漫	复仇者联盟2	expect	{}
+275	电影	同桌的你	expect	{}
+276	电视剧$$$综艺	穿越火线	uri_not_match	{"new_uri": ["b1e9712f99a2c7bee98db1ad8516e285"], "old_uri": []}
+277	动漫	high school d×d	expect	{}
+278	电视剧	斗鱼	new_series	{}
+279	电影	少林足球	expect_new_no	{}
+280	电影	一眉道人	expect	{}
+281	电影	同桌的你	expect	{}
+282	电影	蓝色茉莉在线观看	expect	{}
+283	动漫	闪电十一人	expect	{}
+284	电视剧	卫子夫	expect	{}
+285	电视剧	3days	expect	{}
+286	综艺	中国正在听	expect_new_no	{}
+287	电视剧	铁血武工队	expect	{}
+288	电影	飞屋环行记	uri_not_match	{"new_uri": ["f5e9433a3874cd63d55db69a022ddf6"], "old_uri": []}
+289	电影$$$动漫	复仇者联盟	uri_not_match	{"new_uri": ["623897c28e8e7b334cb05290b8ff5f5", "5eb90bfc045a2a33e924e4a6a1cee10d"], "old_uri": []}
+290	综艺	中国汉字听写大会2014	expect_new_no	{}
+291	电影	sugar rush	new_add	{}
+292	电影	床下有人2	new_add	{}
+293	综艺	天天向上	expect	{}
+294	电影	飞虎 1998 电影	expect	{}
+295	综艺	快乐大本营	expect	{}
+296	动漫	粉红猪小妹	series_lack_important	{"new_site": [["fun.tv", "letv.com"]], "important_check": "pptv.com", "old_vaild_list": ["letv.com", "pptv.com"], "new_vaild_list": ["fun.tv", "letv.com"], "old_site": [["letv.com", "pptv.com", "61.com", "kumi.cn"]]}
+297	电视剧	马向阳下乡记	expect	{}
+298	综艺	天天向上	expect	{}
+299	电影	变形金刚4	expect_new_no	{}
+300	电影	同桌的你	expect	{}
+301	电影	血色将至	new_add	{}
+302	综艺	我们结婚了	expect	{}
+303	综艺	奔跑吧兄弟	expect	{}
+304	综艺	谁能百里挑一	expect	{}
+305	电视剧	美人制造	expect_new_no	{}
+306	电影	同桌的你	expect	{}
+307	电影	机器人总动员	uri_not_match	{"new_uri": ["f56d87ef4afc1e9ba630b806cb4c6df"], "old_uri": []}
+308	动漫	不良人	expect	{}
+309	电影	同桌的你	expect	{}
+310	电影	同桌的你	expect	{}
+311	动漫	十九国	site_less	{"new_site": [["iqiyi.com"]], "old_vaild_list": ["iqiyi.com", "pps.tv"], "new_vaild_list": ["iqiyi.com"], "old_site": [["iqiyi.com", "kumi.cn", "pps.tv"]]}
+312	电视剧	深圳合租记	expect_new_no	{}
+313	综艺	奔跑吧兄弟	expect	{}
+314	综艺	一虎一席谈	expect_new_no	{}
+315	电视剧	刘诗诗风中奇缘	expect_new_no	{}
+316	动漫	海贼王	expect	{}
+317	电影	惊天动地8.0	site_less	{"new_site": [["pptv.com", "fun.tv"]], "old_vaild_list": ["iqiyi.com", "pptv.com", "fun.tv"], "new_vaild_list": ["pptv.com", "fun.tv"], "old_site": [["爱奇艺", "PPTV", "风行网", "爱奇艺", "PPTV", "风行网"]]}
+318	动漫	熊出没	new_series	{}
+319	动漫	赛尔号	expect_new_no	{}
+320	综艺	微博江湖	expect_new_no	{}
+321	综艺	running man	expect	{}
+322	电影	至尊无上1 电影	new_add	{}
+323	电影	川岛芳子	expect	{}
+324	综艺	明星到我家	expect_new_no	{}
+325	电影	卑鄙的我	expect_new_no	{}
+326	电视剧	水浒传	expect_new_no	{}
+327	综艺	林宥嘉	new_add	{}
+328	电视剧	电视剧青果巷	expect	{}
+329	电影	冰雨	expect	{}
+330	电影	河童之夏	new_add	{}
+331	None	活死人归来	expect_new_no	{}
+332	电影	垂直极限,	uri_not_match	{"new_uri": ["380de3197d5c29b35f684e545769a9f"], "old_uri": []}
+333	电影	心花怒放电影	new_add	{}
+334	电影	白头神探	uri_not_match	{"new_uri": ["e4206aae5bff7216e3ec32ccfeb24c8f"], "old_uri": []}
+335	电视剧	实习医生格蕾第十一季	expect_new_no	{}
+336	电视剧	分手大师 电视剧	expect	{}
+337	电视剧	北平无战	expect_new_no	{}
+338	电影	异形大战铁血战士2	expect	{}
+339	电影	四大名捕3	expect	{}
+340	综艺	西甲	site_less	{"new_site": [["iqiyi.com"]], "old_vaild_list": ["iqiyi.com", "letv.com"], "new_vaild_list": ["iqiyi.com"], "old_site": [["爱奇艺", "乐视", "华数TV"]]}
+341	电影	嫁个100分男人	expect	{}
+342	动漫	火影忍者	expect	{}
+343	动漫	火影忍者	expect	{}
+344	动漫	海底小纵队3 动漫	expect_new_no	{}
+345	电影	林肯律师	new_add	{}
+346	电视剧$$$电影	风中奇缘	uri_not_match	{"new_uri": ["6d068be3fe5705f269b9d784f8c6899"], "old_uri": []}
+347	综艺	军情观察室	expect_new_no	{}
+348	动漫	驱魔少年	uri_not_match	{"new_uri": ["afeebd3bb9530fd18eaf4a34e1172434"], "old_uri": []}
+349	动漫	猫和老鼠2014	site_less	{"new_site": [["pptv.com"]], "old_vaild_list": ["letv.com", "pptv.com"], "new_vaild_list": ["pptv.com"], "old_site": [["letv.com", "kankan.com", "pptv.com", "wasu.cn"]]}
+350	电视剧$$$电影	风中奇缘	uri_not_match	{"new_uri": ["6d068be3fe5705f269b9d784f8c6899"], "old_uri": []}
+351	综艺	土豆最音乐	expect_new_no	{}
+352	电影	铸剑	expect	{}
+353	电影	敢死队3	expect	{}
+354	动漫	赛尔号	expect_new_no	{}
+355	动漫	超时空要塞7	expect_new_no	{}
+356	电视剧	诈欺游戏	new_series	{}
+357	电影	欲望	uri_not_match	{"new_uri": ["b17aa38916eadbd39d2f91e865fe6a9b"], "old_uri": []}
+358	动漫	海贼王	expect	{}
+359	电视剧	女人俱乐部	expect	{}
+360	电视剧	22k梦想高飞	expect_new_no	{}
+361	电影	敢死队1电影	expect	{}
+362	电影	两小无猜	expect	{}
+363	综艺	故宫	expect_new_no	{}
+364	电影	乱伦电影	expect	{}
+365	电影	方世玉	expect_new_no	{}
+366	电影$$$电视剧	玫瑰战争	uri_not_match	{"new_uri": ["11827fd2d322202b7aeb1a6bd097b419"], "old_uri": ["a85b43df08377ed1111d0c7d05b02a1a"]}
+367	电影	枪王之王	expect	{}
+368	综艺	快乐生活一点通视频	series_lack_important	{"new_site": [["iqiyi.com", "sohu.com", "youku.com"]], "important_check": "qq.com", "old_vaild_list": ["sohu.com", "iqiyi.com", "qq.com"], "new_vaild_list": ["iqiyi.com", "sohu.com", "youku.com"], "old_site": [["搜狐", "爱奇艺", "华数TV", "北京网络台", "腾讯"]]}
+369	动漫	刀剑神域动漫	expect_both_series	{}
+370	电视剧	面具 于和伟版 电视剧	expect	{}
+371	电影	阿凡达	expect_new_no	{}
+372	电影	床下有人2	new_add	{}
+373	动漫	圣诞之吻	uri_not_match	{"new_uri": ["3c6c1646c68ae814dd8dc4ccac8b1524", "a175a6db750e0d94699d5a21635d80c2"], "old_uri": []}
+374	电视剧	爷们儿电视剧	expect	{}
+375	电视剧	行尸走肉	series_less	{"new_site": [["tudou.com", "youku.com"], ["youku.com"], ["tudou.com", "youku.com"], ["tudou.com", "youku.com"]], "old_site": [["tudou.com"], ["tudou.com"], ["youku.com"], ["tudou.com"], ["tudou.com"]]}
+376	电视剧	再战明天	expect_new_no	{}
+377	动漫	守护甜心	new_series	{}
+378	综艺	exo	new_add	{}
+379	电影	同桌的你	expect	{}
+380	电影	同桌的你	expect	{}
+381	综艺	after school	expect_new_no	{}
+382	综艺$$$电影	人物	uri_not_match	{"new_uri": ["a015ca3831618fcdf5e558ea43bce265"], "old_uri": []}
+383	电视剧	剑侠	expect_new_no	{}
+384	电影	同桌的你	expect	{}
+385	动漫	fate stay night	expect_new_no	{}
+386	动漫	假面骑士龙骑	expect	{}
+387	电视剧	哥谭1 电视剧	site_less	{"new_site": [["pptv.com", "qq.com"]], "old_vaild_list": ["sohu.com", "iqiyi.com", "letv.com", "pptv.com"], "new_vaild_list": ["pptv.com", "qq.com"], "old_site": [["sohu.com", "iqiyi.com", "letv.com", "pptv.com"]]}
+388	动漫	火影忍者	expect	{}
+389	动漫	happiness!	expect	{}
+390	动漫	柯南	series_lack_important	{"new_site": [["iqiyi.com", "sohu.com", "letv.com", "pptv.com", "youku.com", "tudou.com"]], "important_check": "pps.tv", "old_vaild_list": ["iqiyi.com", "sohu.com", "pps.tv"], "new_vaild_list": ["iqiyi.com", "sohu.com", "letv.com", "pptv.com", "youku.com", "tudou.com"], "old_site": [["iqiyi.com", "sohu.com", "kankan.com", "pps.tv"]]}
+391	电视剧	大漠谣	expect_new_no	{}
+392	综艺	一年级湖南卫视	expect_new_no	{}
+393	电视剧	私立马鹿兰高校	expect_new_no	{}
+394	电影	少女	expect	{}
+395	综艺	中国好声音	uri_not_match	{"new_uri": ["897d26447f9ca5548f4cef09bda8cef7"], "old_uri": []}
+396	动漫	名侦探柯南	series_lack_important	{"new_site": [["iqiyi.com", "sohu.com", "letv.com", "pptv.com", "youku.com", "tudou.com"]], "important_check": "pps.tv", "old_vaild_list": ["iqiyi.com", "sohu.com", "pps.tv"], "new_vaild_list": ["iqiyi.com", "sohu.com", "letv.com", "pptv.com", "youku.com", "tudou.com"], "old_site": [["iqiyi.com", "sohu.com", "kankan.com", "pps.tv"]]}
+397	综艺	2天1夜	new_add	{}
+398	电影	同桌的你	expect	{}
+399	综艺	奔跑吧兄弟	expect	{}
+400	电影	红高粱	new_add	{}
+401	电视剧	半路父子	expect_new_no	{}
+402	电影	裂口女	new_add	{}
+403	电视剧	不是不想嫁	expect_new_no	{}
+404	电视剧	毛泽东	expect_new_no	{}
+405	电影	同桌的你	expect	{}
+406	电影	周末同同床韩国电影	new_add	{}
+407	电视剧	双螺旋	expect	{}
+408	电影	大峰祖师 电影	expect	{}
+409	综艺	舞动奇迹	site_less	{"new_site": [["iqiyi.com", "sohu.com", "qq.com"]], "old_vaild_list": ["sohu.com", "iqiyi.com", "letv.com", "qq.com", "pps.tv"], "new_vaild_list": ["iqiyi.com", "sohu.com", "qq.com"], "old_site": [["搜狐", "爱奇艺", "乐视", "腾讯", "PPS"]]}
+410	电视剧	神枪之倒刺	expect	{}
+411	动漫	啦啦啦德玛西亚	expect_new_no	{}
+412	电视剧	不懂女人电视剧中文版	expect_new_no	{}
+413	电影	情书	new_add	{}
+414	综艺	快乐大本营最新一期	expect_new_no	{}
+415	电影	七小罗汉	expect	{}
+416	电影	爱情呼叫转移1电影	expect	{}
+417	电视剧	我们的天空	expect	{}
+418	电视剧	红高粱电视剧	expect_new_no	{}
+419	综艺	华夏夺宝	expect	{}
+420	电视剧$$$电影	红高粱	uri_not_match	{"new_uri": ["9d996a3d39fe2a22da1e90f7527bcbdb"], "old_uri": []}
+421	电影	同桌的你	expect	{}
+422	综艺	奔跑吧兄弟	expect	{}
+423	综艺	档案	site_less	{"new_site": [["iqiyi.com"]], "old_vaild_list": ["pptv.com", "iqiyi.com"], "new_vaild_list": ["iqiyi.com"], "old_site": [["PPTV", "爱奇艺"]]}
+424	动漫	名侦探柯南剧场版	uri_not_match	{"new_uri": ["f8ea836a6f1e5fd586024900e0ba6837"], "old_uri": []}
+425	综艺	笑霸来了 综艺	expect	{}
+426	动漫	蜡笔小新国语全集高清	new_series	{}
+427	电视剧	火蓝刀锋	expect	{}
+428	综艺	变形计	site_less	{"new_site": [["qq.com"]], "old_vaild_list": ["qq.com", "iqiyi.com", "sohu.com", "pps.tv"], "new_vaild_list": ["qq.com"], "old_site": [["芒果TV", "腾讯", "爱奇艺", "搜狐", "PPS"]]}
+429	电视剧	养父的花样年华	expect_new_no	{}
+430	电影	星际拾荒者	expect	{}
+431	电影	go小姐 电影	new_add	{}
+432	电视剧	北平无战事	expect_new_no	{}
+433	电视剧	有你才幸福	expect	{}
+434	电影	美女与野兽	expect	{}
+435	综艺	穿越火线2	expect_new_no	{}
+436	电视剧	渗透电视剧全集	expect	{}
+437	电影	黄金时代 2014 电影	new_add	{}
+438	电影	金刚	expect	{}
+439	电影	非常人贩2	expect	{}
+440	电影	一个人的武林 电影	expect_new_no	{}
+441	电视剧	吸血鬼日记第一季	expect	{}
+442	电影	同桌的你	expect	{}
+443	综艺	两天一夜	uri_not_match	{"new_uri": ["8aa20e696caf2447f5b015424604d137"], "old_uri": []}
+444	电视剧	来自星星	expect_new_no	{}
+445	动漫	熊出没之过年	series_lack_important	{"new_site": [["sohu.com", "fun.tv", "qq.com", "youku.com", "tudou.com"]], "important_check": "iqiyi.com", "old_vaild_list": ["sohu.com", "iqiyi.com", "fun.tv"], "new_vaild_list": ["sohu.com", "fun.tv", "qq.com", "youku.com", "tudou.com"], "old_site": [["搜狐", "爱奇艺", "CNTV", "酷米", "风行网"]]}
+446	动漫	朵拉	expect_new_no	{}
+447	电视剧	爷们儿电视剧全集	expect	{}
+448	电影	星际拾荒者	expect	{}
+449	综艺	tf少年go第二季	expect_new_no	{}
+450	电影	潜艇总动员4	expect	{}
+451	电视剧	绿箭侠	series_less	{"new_site": [["iqiyi.com", "sohu.com", "letv.com", "qq.com"], ["iqiyi.com", "sohu.com", "letv.com", "qq.com", "youku.com"]], "old_site": [["sohu.com", "iqiyi.com", "letv.com"], ["sohu.com", "iqiyi.com", "letv.com"], ["sohu.com", "iqiyi.com", "letv.com", "qq.com"]]}
+452	动漫	海贼王	expect	{}
+453	综艺	娱乐百分百	series_lack_important	{"new_site": [["iqiyi.com", "youku.com", "pptv.com"]], "important_check": "pps.tv", "old_vaild_list": ["iqiyi.com", "pps.tv", "pptv.com"], "new_vaild_list": ["iqiyi.com", "youku.com", "pptv.com"], "old_site": [["爱奇艺", "暴风", "PPS", "PPTV"]]}
+454	电影	命运派对	expect	{}
+455	电影	伴娘	new_add	{}
+456	动漫	铁甲小宝	uri_not_match	{"new_uri": ["7f81c8230a1928fb16c9c7a40d64333"], "old_uri": []}
+457	综艺	四海钓鱼	expect_new_no	{}
+458	动漫	灵犬雪莉 动漫	new_add	{}
+459	动漫	火影忍者	expect	{}
+460	电视剧	high school love on 电视剧	expect	{}
+461	综艺	男神女神	expect	{}
+462	综艺	年代秀	series_lack_important	{"new_site": [["sohu.com", "youku.com", "tudou.com", "pptv.com", "fun.tv", "letv.com"]], "important_check": "iqiyi.com", "old_vaild_list": ["iqiyi.com", "sohu.com", "letv.com"], "new_vaild_list": ["sohu.com", "youku.com", "tudou.com", "pptv.com", "fun.tv", "letv.com"], "old_site": [["爱奇艺", "搜狐", "乐视", "华数TV", "56网"]]}
+463	电影	枪王之王	expect	{}
+464	电视剧	活佛济公3	expect	{}
+465	电视剧	因为爱情有奇迹	expect_new_no	{}
+466	电影	哥斯拉	uri_not_match	{"new_uri": ["abbf3c84c89685ccb0cb81a6744e0438"], "old_uri": []}
+467	电视剧	雍正	expect_new_no	{}
+468	综艺	快乐大本营	expect	{}
+469	动漫	名侦探	expect_new_no	{}
+470	综艺	年代秀	series_lack_important	{"new_site": [["sohu.com", "youku.com", "tudou.com", "pptv.com", "fun.tv", "letv.com"]], "important_check": "iqiyi.com", "old_vaild_list": ["iqiyi.com", "sohu.com", "letv.com"], "new_vaild_list": ["sohu.com", "youku.com", "tudou.com", "pptv.com", "fun.tv", "letv.com"], "old_site": [["爱奇艺", "搜狐", "乐视", "华数TV", "56网"]]}
+471	综艺	奔跑吧兄弟	expect	{}
+472	电影	同桌的你	expect	{}
+473	电影	寂静岭	expect_new_no	{}
+474	电影	逆爱 电影完整版	new_add	{}
+475	电视剧	斗鱼	new_series	{}
+476	动漫	火影忍者	expect	{}
+477	电影	我就是我 电影	expect	{}
+478	电影	西游降魔篇	expect	{}
+479	电影	活跳尸	expect_new_no	{}
+480	电影	同桌的你	expect	{}
+481	动漫	迪迦奥特曼	series_lack_important	{"new_site": [["iqiyi.com", "sohu.com", "pptv.com", "fun.tv", "pps.tv", "youku.com", "tudou.com", "qq.com"]], "important_check": "letv.com", "old_vaild_list": ["sohu.com", "iqiyi.com", "letv.com"], "new_vaild_list": ["iqiyi.com", "sohu.com", "pptv.com", "fun.tv", "pps.tv", "youku.com", "tudou.com", "qq.com"], "old_site": [["sohu.com", "iqiyi.com", "letv.com", "kankan.com"]]}
+482	综艺	奔跑吧兄弟	expect	{}
+483	电影	哥斯拉	uri_not_match	{"new_uri": ["abbf3c84c89685ccb0cb81a6744e0438"], "old_uri": []}
+484	电视剧	勇敢的心	expect	{}
+485	电影	同桌的你	expect	{}
+486	电影	一个人的武林	expect_new_no	{}
+487	电视剧	行尸走肉5	expect_new_no	{}
+488	电视剧$$$电影	风中奇缘	uri_not_match	{"new_uri": ["6d068be3fe5705f269b9d784f8c6899"], "old_uri": []}
+489	综艺	我是演说家第二期	expect_new_no	{}
+490	电影	nobady	new_add	{}
+491	综艺	中超	expect_new_no	{}
+492	电影	霸王别姬	expect	{}
+493	电视剧	西游记后传	expect	{}
+494	综艺	real mate	expect_new_no	{}
+495	综艺	李宇春	new_add	{}
+496	电影	情书	new_add	{}
+497	电影	帕克 电影	expect_new_no	{}
+498	电视剧$$$电影	红高粱	uri_not_match	{"new_uri": ["9d996a3d39fe2a22da1e90f7527bcbdb"], "old_uri": []}
+499	电影	生化危机	expect_new_no	{}
+500	动漫	名侦探柯南	series_lack_important	{"new_site": [["iqiyi.com", "sohu.com", "letv.com", "pptv.com", "youku.com", "tudou.com"]], "important_check": "pps.tv", "old_vaild_list": ["iqiyi.com", "sohu.com", "pps.tv"], "new_vaild_list": ["iqiyi.com", "sohu.com", "letv.com", "pptv.com", "youku.com", "tudou.com"], "old_site": [["iqiyi.com", "sohu.com", "kankan.com", "pps.tv"]]}
+501	动漫	刀剑神域	expect_both_series	{}
+502	综艺	今日说法	expect_new_no	{}
+503	动漫	尸兄	series_lack_important	{"new_site": [["iqiyi.com", "sohu.com", "pptv.com", "qq.com"]], "important_check": "letv.com", "old_vaild_list": ["iqiyi.com", "sohu.com", "letv.com"], "new_vaild_list": ["iqiyi.com", "sohu.com", "pptv.com", "qq.com"], "old_site": [["iqiyi.com", "sohu.com", "kankan.com", "letv.com"]]}
+504	电视剧	精忠岳飞 电视剧	expect	{}
+505	电视剧$$$电影	风中奇缘	uri_not_match	{"new_uri": ["6d068be3fe5705f269b9d784f8c6899"], "old_uri": []}
+506	动漫	公主时间	expect	{}
+507	综艺	恋爱的犀牛	new_add	{}
+508	电影	驯龙高手	expect_new_no	{}
+509	电影	同桌的你	expect	{}
+510	电视剧	铁血武工队传奇全集	expect	{}
+511	电视剧	我们的爱	expect_new_no	{}
+512	电影	雷洛传2	expect_new_no	{}
+513	电视剧	老大	expect	{}
+514	电影	同桌的你	expect	{}
+515	电影	惊天危机	series_lack_important	{"new_site": [["sohu.com", "youku.com"]], "important_check": "iqiyi.com", "old_vaild_list": ["sohu.com", "iqiyi.com"], "new_vaild_list": ["sohu.com", "youku.com"], "old_site": [["搜狐", "爱奇艺"]]}
+516	电视剧	红楼梦	expect	{}
+517	电视剧	雪豹电视剧全集	expect	{}
+518	电视剧	憨豆先生	expect	{}
+519	电视剧	美人制造	expect_new_no	{}
+520	综艺	running man	expect	{}
+521	电影	潘金莲	expect	{}
+522	动漫	超人力斯	expect	{}
+523	电影	白雪公主与猎人	expect	{}
+524	动漫	海贼王	new_add	{}
+525	电视剧	追剿 电视剧	expect	{}
+526	电影	小时代	expect_new_no	{}
+527	电影	天际浩劫	expect_new_no	{}
+528	电视剧	cuohun	expect_new_no	{}
+529	电视剧	四世同堂	expect	{}
+530	电影	亲爱的	new_add	{}
+531	电视剧	爱情回来了	expect	{}
+532	电视剧	大漠谣结局	expect_new_no	{}
+533	电视剧	北平无战事	expect_new_no	{}
+534	综艺	无限挑战	expect	{}
+535	电视剧	超人前传	expect_new_no	{}
+536	电影	同桌的你	expect	{}
+537	电影	星际拾荒者	expect	{}
+538	电影	同桌的你	expect	{}
+539	电影	潜艇总动员4	expect	{}
+540	电影	同桌的你	expect	{}
+541	电视剧	冷风暴	expect	{}
+542	动漫	道德经	expect_new_no	{}
+543	动漫	巴拉拉小魔仙	expect_both_series	{}
+544	综艺	running man	expect	{}
+545	电视剧$$$电影	飞虎	uri_not_match	{"new_uri": ["f7165f4e76103a26ef8d04ce113d4def"], "old_uri": []}
+546	电视剧	波塞冬	expect	{}
+547	电影	小时代3	expect	{}
+548	None	破局电影	expect_new_no	{}
+549	电视剧	美人制造	expect_new_no	{}
+550	电视剧	小时代 电视剧	expect_new_no	{}
+551	电影	浪漫刺客	expect	{}
+552	电影	忠犬八公	new_add	{}
+553	电视剧	大长今韩语版全集	expect_new_no	{}
+554	电影	神探	expect	{}
+555	电视剧	地道战	expect	{}
+556	综艺	真正的男人	expect	{}
+557	电影	龙猫 电影	expect	{}
+558	综艺	明星到我家 江苏卫视	expect_new_no	{}
+559	动漫	lovelive	expect	{}
+560	综艺	疯狂e戏代2014	site_less	{"new_site": [["iqiyi.com"]], "old_vaild_list": ["iqiyi.com", "pps.tv"], "new_vaild_list": ["iqiyi.com"], "old_site": [["爱奇艺", "PPS"]]}
+561	电视剧	斗鱼	new_series	{}
+562	电视剧	怪咖啡	expect_new_no	{}
+563	None	大话2	expect_new_no	{}
+564	电视剧	战神 电视剧	expect	{}
+565	电影	白兰	expect	{}
+566	电影	同桌的你	expect	{}
+567	综艺	郭德纲2014最新相声	expect_new_no	{}
+568	动漫	命运石之门	uri_not_match	{"new_uri": ["e6ae7ca5ab178e78d3ab0430ff9f54ee"], "old_uri": []}
+569	电视剧	新三国	expect	{}
+570	综艺	喜从天降贾玲	expect_new_no	{}
+571	电影	苹果	new_add	{}
+572	电影	天际浩劫	expect_new_no	{}
+573	电视剧	后宫甄嬛传电视剧	expect	{}
+574	综艺	开讲啦	uri_not_match	{"new_uri": ["df8742d510350ddecd352ce2cc49ae0a"], "old_uri": []}
+575	综艺	今晚80后脱口秀	expect	{}
+576	电影	天际浩劫	expect_new_no	{}
+577	电影	女神捕5(借刀)电影	expect	{}
+578	电视剧	血族	expect	{}
+579	电影	鸿门宴	expect	{}
+580	电视剧	美眉校探第一季	expect	{}
+581	电视剧	母亲母亲电视剧在线观看	expect	{}
+582	综艺	奔跑吧兄弟	expect	{}
+583	综艺	开讲啦	uri_not_match	{"new_uri": ["df8742d510350ddecd352ce2cc49ae0a"], "old_uri": []}
+584	电视剧	电视剧亲爱的	expect	{}
+585	电影	流氓医生	expect	{}
+586	电视剧	梨花泪电视剧	uri_not_match	{"new_uri": ["dcf0ae4e549b054d6389d1a995edbd8a"], "old_uri": []}
+587	电视剧	使命电视剧全集	new_add	{}
+588	电视剧	天国凤凰	expect	{}
+589	综艺	胥渡吧最新搞笑视频	expect	{}
+590	综艺	宝贝你好	expect	{}
+591	电影	同桌的你	expect	{}
+592	电视剧$$$综艺	天下无双	uri_not_match	{"new_uri": ["72ad6005aa0ce257c5beb0914902b4a7"], "old_uri": ["6b184013522353f8e559e1ef47033b14"]}
+593	电影	变形金刚	expect_new_no	{}
+594	电影	星际拾荒者	expect	{}
+595	电影	全集网	expect_new_no	{}
+596	动漫	火星异种	expect	{}
+597	综艺	老梁故事汇	expect	{}
+598	电视剧	我是特种兵2	uri_not_match	{"new_uri": ["66c207a9461cf8c1f8742f35c3f33df5"], "old_uri": []}
+599	动漫	天鹅湖	expect_new_no	{}
+600	电视剧	行尸走肉第五季	expect_new_no	{}
+601	动漫	黑色子弹	new_add	{}
+602	电影	卓别林	uri_not_match	{"new_uri": ["588ca9ebcf80891d54d9e3c173498a15"], "old_uri": ["723268e34e81eccc3c631c2962516143"]}
+603	动漫	火影忍者	expect	{}
+604	电影	神探	expect	{}
+605	电影	赌圣	new_add	{}
+606	电影	同桌的你	expect	{}
+607	综艺	年代秀	series_lack_important	{"new_site": [["sohu.com", "youku.com", "tudou.com", "pptv.com", "fun.tv", "letv.com"]], "important_check": "iqiyi.com", "old_vaild_list": ["iqiyi.com", "sohu.com", "letv.com"], "new_vaild_list": ["sohu.com", "youku.com", "tudou.com", "pptv.com", "fun.tv", "letv.com"], "old_site": [["爱奇艺", "搜狐", "乐视", "华数TV", "56网"]]}
+608	电视剧	摩登家庭 第六季	expect	{}
+609	电影	大话西游之月光宝盒 电影	expect_new_no	{}
+610	电视剧	新三国演义 电视剧	expect	{}
+611	综艺	小小智慧2014	expect_new_no	{}
+612	电影	侏罗纪公园2失落的世界电影	uri_not_match	{"new_uri": ["d90efc0b54f26553c4418a06445c2229"], "old_uri": []}
+613	电视剧	大象	expect	{}
+614	电视剧	北平无战事	expect_new_no	{}
+615	电视剧	当男人恋爱的时候	expect_new_no	{}
+616	动漫	dota视频	new_add	{}
+617	电视剧$$$电影	红高粱	uri_not_match	{"new_uri": ["9d996a3d39fe2a22da1e90f7527bcbdb"], "old_uri": []}
+618	电影	惊天危机	series_lack_important	{"new_site": [["sohu.com", "youku.com"]], "important_check": "iqiyi.com", "old_vaild_list": ["sohu.com", "iqiyi.com"], "new_vaild_list": ["sohu.com", "youku.com"], "old_site": [["搜狐", "爱奇艺"]]}
+619	电影	亲切的金子在线观看	new_add	{}
+620	电视剧	甄嬛传英文版	expect_new_no	{}
+621	综艺	奔跑吧兄弟	expect	{}
+622	动漫	弟子规	uri_not_match	{"new_uri": ["ac97b4b243c80378bf7f3ce6f540dd70"], "old_uri": ["a831ed3f9ee0ec6fa37c67e6517ab4dd"]}
+623	动漫	妖精的尾巴	expect	{}
+624	电影	同桌的你	expect	{}
+625	电影	大话西游高清版	expect_new_no	{}
+626	电影	美国队长	expect_new_no	{}
+627	动漫	火影忍者疾风传	uri_not_match	{"new_uri": ["d08237032f16060b9952d432894db3db"], "old_uri": ["8227299903862aeb57c39e0345e50552", "858bc941b6e3d8a2384d0984ef054bfb"]}
+628	电视剧	行尸走肉第五季	expect_new_no	{}
+629	电视剧	美剧闪电侠	expect_new_no	{}
+630	电影	蜘蛛侠	expect_new_no	{}
+631	电视剧	掌上明珠	expect_new_no	{}
+632	电视剧	紫钗奇缘国语高清	expect_new_no	{}
+633	电视剧	美人制造 电视剧	expect_new_no	{}
+634	动漫	大耳朵图图第五季	series_lack_important	{"new_site": [["iqiyi.com", "fun.tv", "youku.com", "tudou.com"]], "important_check": "sohu.com", "old_vaild_list": ["iqiyi.com", "sohu.com"], "new_vaild_list": ["iqiyi.com", "fun.tv", "youku.com", "tudou.com"], "old_site": [["iqiyi.com", "sohu.com", "kankan.com", "kumi.cn"]]}
+635	电视剧	滇西1944	expect	{}
+636	电影	黑天鹅	new_add	{}
+637	电影	魔法奇缘	expect_new_no	{}
+638	电影	同桌的你	expect	{}
+639	电影	同桌的你	expect	{}
+640	电视剧	勿忘我 电视剧	expect_new_no	{}
+641	电视剧	雷哥老范	expect	{}
+642	电影	虎口脱险	expect	{}
+643	动漫	我叫mt第六季	series_lack_important	{"new_site": [["iqiyi.com", "qq.com", "pptv.com"]], "important_check": "fun.tv", "old_vaild_list": ["iqiyi.com", "fun.tv", "letv.com"], "new_vaild_list": ["iqiyi.com", "qq.com", "pptv.com"], "old_site": [["iqiyi.com", "wasu.cn", "fun.tv", "letv.com"]]}
+644	电视剧	康熙王朝 历史	new_add	{}
+645	电影	同桌的你	expect	{}
+646	电影	潘神的迷宫	new_add	{}
+647	电视剧	错点鸳鸯电视剧全集	expect	{}
+648	动漫	巴啦啦小魔仙之奇迹舞步	expect	{}
+649	动漫	爱探险的朵拉	expect	{}
+650	综艺	天籁之声	expect	{}
+651	电影	反贪风暴粤语高清	expect	{}
+652	电视剧	封神榜	expect_new_no	{}
+653	综艺	胥渡吧	expect	{}
+654	电影	破晓电影	new_add	{}
+655	电影	死亡诗社	new_add	{}
+656	电影	同桌的你	expect	{}
+657	动漫	柯南	series_lack_important	{"new_site": [["iqiyi.com", "sohu.com", "letv.com", "pptv.com", "youku.com", "tudou.com"]], "important_check": "pps.tv", "old_vaild_list": ["iqiyi.com", "sohu.com", "pps.tv"], "new_vaild_list": ["iqiyi.com", "sohu.com", "letv.com", "pptv.com", "youku.com", "tudou.com"], "old_site": [["iqiyi.com", "sohu.com", "kankan.com", "pps.tv"]]}
+658	电视剧	薛丁山	expect_new_no	{}
+659	电视剧	美人制造	expect_new_no	{}
+660	电视剧	爷们儿电视剧	expect	{}
+661	动漫	进击的巨人	expect	{}
+662	电影	同桌的你	expect	{}
+663	综艺	奔跑吧	expect_new_no	{}
+664	电影	大决战1(辽沈战役)电影	expect	{}
+665	电影	星际拾荒者	expect	{}
+666	电影	西游降魔篇	expect	{}
+667	电视剧	奇妙世纪	expect_new_no	{}
+668	电视剧	闪电侠	expect_new_no	{}
+669	电影	杀人回忆 电影	expect	{}
+670	电影	生化危机5:惩罚 电影	new_add	{}
+671	电影	同桌的你	expect	{}
+672	电视剧	把爱带回家	expect	{}
+673	电视剧	学校2013	expect	{}
+674	综艺	超级演说家	expect	{}
+675	动漫	米奇妙妙屋第一季	site_less	{"new_site": [["iqiyi.com", "sohu.com", "pptv.com"]], "old_vaild_list": ["iqiyi.com", "sohu.com", "letv.com", "pps.tv"], "new_vaild_list": ["iqiyi.com", "sohu.com", "pptv.com"], "old_site": [["iqiyi.com", "sohu.com", "letv.com", "pps.tv"]]}
+676	电视剧	纸牌屋	expect_both_series	{}
+677	电影	同桌的你	expect	{}
+678	动漫	鞠萍姐姐讲故事	series_lack_important	{"new_site": [["iqiyi.com", "qq.com", "youku.com", "tudou.com"]], "important_check": "letv.com", "old_vaild_list": ["iqiyi.com", "letv.com", "pps.tv"], "new_vaild_list": ["iqiyi.com", "qq.com", "youku.com", "tudou.com"], "old_site": [["iqiyi.com", "letv.com", "pps.tv", "baofeng.com"]]}
+679	电视剧	恶作剧之吻	expect_new_no	{}
+680	电视剧	半路父子	expect_new_no	{}
+681	电影	孤岛 电影	expect_new_no	{}
+682	电影	冬荫功	expect_new_no	{}
+683	电影	黄飞鸿狮王争霸	expect_new_no	{}
+684	动漫	东京食尸鬼	expect	{}
+685	电视剧	新济公活佛 未删减版	expect	{}
+686	电影	神鬼传奇2	expect	{}
+687	电影	巴尔扎克和小裁缝	expect	{}
+688	电影	神探	expect	{}
+689	动漫	霹雳劫	expect_new_no	{}
+690	综艺	非诚勿扰	site_less	{"new_site": [["pptv.com"]], "old_vaild_list": ["pptv.com", "sohu.com", "qq.com", "iqiyi.com"], "new_vaild_list": ["pptv.com"], "old_site": [["PPTV", "搜狐", "腾讯", "华数TV", "爱奇艺"]]}
+691	电视剧	不懂女人电视剧国语	expect_new_no	{}
+692	动漫	郭德纲相声	expect	{}
+693	电视剧	刘伯承元帅	expect_new_no	{}
+694	电影	泰剧在云端	expect_new_no	{}
+695	电影	这个男人来自地球	uri_not_match	{"new_uri": ["36f8973a21c1b1a37b0b65930805d69"], "old_uri": []}
+696	电影	月光宝盒2国语高清	expect	{}
+697	电视剧	我的秘密饭店	expect	{}
+698	电影	霍金	new_add	{}
+699	动漫	美少女	uri_not_match	{"new_uri": ["515b0944c3b2b135eb6c5efa503179c7"], "old_uri": ["bb47d7eb1f1e1efde9988c14c35c31df"]}
+700	电视剧	爱情公寓	expect_both_series	{}
+701	电影	潜艇总动员4	expect	{}
+702	电视剧$$$综艺	花样年华	uri_not_match	{"new_uri": ["8594c53c889f03c86bfdec256bea729f"], "old_uri": []}
+703	电视剧	乌龙闯情关	expect	{}
+704	电视剧	兵圣	expect	{}
+705	None	披头士	expect_new_no	{}
+706	电影	同桌的你	expect	{}
+707	电视剧	人间正道是沧桑	expect	{}
+708	电视剧	平凡的奇迹	expect	{}
+709	电视剧	母亲母亲电视剧在线观看	expect	{}
+710	综艺	2014 希望之星	expect_new_no	{}
+711	电视剧	吸血鬼日记	expect_new_no	{}
+712	电视剧	开国元勋朱德	expect_new_no	{}
+713	动漫	命运石之门	uri_not_match	{"new_uri": ["e6ae7ca5ab178e78d3ab0430ff9f54ee"], "old_uri": []}
+714	动漫	死神	expect	{}
+715	电影	变形金刚4	expect_new_no	{}
+716	电影	starterek	new_add	{}
+717	电视剧	美人制造	expect_new_no	{}
+718	动漫	魔术快斗	expect	{}
+719	电影	同桌的你	new_add	{}
+720	电视剧	流星花园第二部	expect_new_no	{}
+721	动漫	熊出没之过年	series_lack_important	{"new_site": [["sohu.com", "fun.tv", "qq.com", "youku.com", "tudou.com"]], "important_check": "iqiyi.com", "old_vaild_list": ["sohu.com", "iqiyi.com", "fun.tv"], "new_vaild_list": ["sohu.com", "fun.tv", "qq.com", "youku.com", "tudou.com"], "old_site": [["搜狐", "爱奇艺", "CNTV", "酷米", "风行网"]]}
+722	综艺	跑男中国版	expect	{}
+723	电影	bbc	new_add	{}
+724	电影	同桌的你	expect	{}
+725	动漫	女生爱女生	expect	{}
+726	综艺	快乐大本营	expect	{}
+727	综艺	一年级	expect_new_no	{}
+728	电影	反贪风暴	expect	{}
+729	动漫	宠物小精灵xy	expect	{}
+730	电影	同桌的你	expect	{}
+731	动漫	星刻的龙骑士	expect	{}
+732	电影	不一样的爸爸	expect	{}
+733	电影	汽车总动员	expect_new_no	{}
+734	动漫	假面骑士wizard	expect	{}
+735	电影	变形金刚	expect_new_no	{}

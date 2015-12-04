@@ -1,0 +1,48 @@
+crawler_conf_path=../conf/crawler.conf
+query_file_path=/home/work/aladdin_update_monitor/data/crawler_query.dict
+result_file_path=/home/work/aladdin_update_monitor/data/crawler_result.dict
+position字段变动
+new_position[1] old_position[0]
+position字段变动
+new_position[0] old_position[1]
+position字段变动
+new_position[2] old_position[3]
+position字段变动
+new_position[2] old_position[3]
+position字段变动
+new_position[2] old_position[3]
+position字段变动
+new_position[1] old_position[0]
+url字段变动
+new_url[http://www.iqiyi.com/a_19rrgjei69.html?vfm=bdaldpad] old_url[http://www.iqiyi.com/a_19rrgib6b1.html?vfm=bdaldpad]
+position字段变动
+new_position[2] old_position[3]
+content_key字段变动
+new_content_key[2014-11-24] old_content_key[2014-11-27]
+content_key字段变动
+new_content_key[2014-11-25] old_content_key[2014-11-26]
+position字段变动
+new_position[5] old_position[6]
+position字段变动
+new_position[5] old_position[6]
+content_key字段变动
+new_content_key[607] old_content_key[608]
+url字段变动
+new_url[http://www.iqiyi.com/a_19rrguecf5.html?vfm=2008_aldbd] old_url[http://tv.sohu.com/s2013/zgsnp/]
+title字段变动
+new_title[中国少年派_全集高清视频在线观看_爱奇艺] old_title[中国少年派_全集高清视频在线观看_搜狐视频]
+content_key字段变动
+new_content_key[2014-11-26] old_content_key[2014-11-27]
+综艺 not display
+综艺 not display
+抓取失败
+url[http://hz01-ps-wwwus50-h1.hz01:8012/s?tn=SE_testmonitor_4spqbq4b&wd=%E7%BB%BC%E8%89%BA&ie=UTF-8&dsp=ipad&sid=9723], network-error: [Errno 111] Connection refused
+综艺 not display
+position字段变动
+new_position[1] old_position[0]
+position字段变动
+new_position[1] old_position[0]
+content_key字段变动
+new_content_key[2014-11-26] old_content_key[2014-11-27]
+content_key字段变动
+new_content_key[2014-11-26] old_content_key[2014-11-27]

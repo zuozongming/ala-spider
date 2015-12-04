@@ -1,0 +1,11 @@
+#run demo
+cd src && python mini_spider.py -c ../conf/spider.conf
+#run unittest
+cd test && python xxxxx_test.py
+
+--+
+  +src  #mini spider src
+  +test #unitest
+  +conf #conf file
+  +data #input and oputput file
+

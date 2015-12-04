@@ -1,0 +1,235 @@
+Tue Apr 21 18:00:01 CST 2015
+crawler_conf_path=../conf/crawler.conf
+query_file_path=/home/work/duanjiawang/project/120all_video_off_line/aladdin_update_monitor/data/crawler_query.dict
+result_file_path=/home/work/duanjiawang/project/120all_video_off_line/aladdin_update_monitor/data/crawler_result.dict
+position字段变动
+new_position[0] old_position[1]
+position字段变动
+new_position[0] old_position[1]
+我是传奇 not display
+我是传奇 not display
+url字段变动
+new_url[http://v.baidu.com/v?word=%CF%C4%C4%BF%D3%D1%C8%CB%D5%CA&pids=1888_1876_978_977&vtype=comic&video_uri=comic.basic.000056.1378975501.3] old_url[http://v.baidu.com/comic/1888.htm?fr=ala8&ty=43]
+srcid字段变动
+new_srcid[20548] old_srcid[1]
+title字段变动
+new_title[夏目友人帐(4季全)_高清视频在线观看_百度视频] old_title[夏目友人帐 TV版]
+content_key字段变动
+new_content_key[13/13] old_content_key[13]
+tplt字段变动
+new_tplt[zx_tv_video] old_tplt[vd_comic]
+昆仑决 not display
+昆仑决 not display
+未展现
+结果不展现
+url字段变动
+new_url[http://tv.sohu.com/s2015/fsyx/] old_url[http://v.baidu.com/tv/22331.htm?fr=ala6&ty=22]
+srcid字段变动
+new_srcid[6889] old_srcid[1]
+title字段变动
+new_title[封神英雄榜第二部_高清视频在线观看_搜狐视频] old_title[封神英雄榜 第2季]
+tplt字段变动
+new_tplt[zx_new_tvideo] old_tplt[vd_sitcom]
+position字段变动
+new_position[0] old_position[1]
+position字段变动
+new_position[0] old_position[1]
+天降之物 not display
+天降之物 not display
+position字段变动
+new_position[0] old_position[1]
+圣剑使的禁咒咏唱 not display
+圣剑使的禁咒咏唱 not display
+position字段变动
+new_position[0] old_position[1]
+position字段变动
+new_position[0] old_position[1]
+盗墓笔记电视剧 not display
+盗墓笔记电视剧 not display
+盗墓笔记电视剧 not display
+盗墓笔记电视剧 not display
+十万个冷笑话 not display
+十万个冷笑话 not display
+position字段变动
+new_position[0] old_position[1]
+position字段变动
+new_position[0] old_position[1]
+position字段变动
+new_position[0] old_position[1]
+今日关注 not display
+今日关注 not display
+position字段变动
+new_position[3] old_position[4]
+position字段变动
+new_position[3] old_position[4]
+恢复展现
+结果恢复展现
+position字段变动
+new_position[9] old_position[8]
+爸爸去哪儿第二季 not display
+爸爸去哪儿第二季 not display
+我的妹妹不可能那么可爱 not display
+我的妹妹不可能那么可爱 not display
+我的妹妹不可能那么可爱 not display
+我的妹妹不可能那么可爱 not display
+我的妹妹不可能那么可爱 not display
+我的妹妹不可能那么可爱 not display
+url字段变动
+new_url[http://v.baidu.com/tv/18358.htm?fr=ala6&ty=22] old_url[http://tv.sohu.com/s2015/dsjmz/]
+srcid字段变动
+new_srcid[1] old_srcid[6869]
+title字段变动
+new_title[妈祖] old_title[妈祖_高清视频在线观看_搜狐视频]
+tplt字段变动
+new_tplt[vd_sitcom] old_tplt[zx_new_tvideo]
+暗杀教室 not display
+暗杀教室 not display
+铠甲勇士3 not display
+铠甲勇士3 not display
+龙珠直播 not display
+龙珠直播 not display
+龙珠直播 not display
+龙珠直播 not display
+url字段变动
+new_url[http://www.iqiyi.com/a_19rrhc1ftl.html?vfm=2008_aldbd] old_url[http://v.baidu.com/show/10770.htm?fr=ala9&ty=26]
+srcid字段变动
+new_srcid[6889] old_srcid[1]
+title字段变动
+new_title[奇葩说_全集高清视频在线观看_爱奇艺] old_title[奇葩说]
+tplt字段变动
+new_tplt[zx_new_mvideo] old_tplt[vd_tamasha]
+黑执事 not display
+黑执事 not display
+another not display
+another not display
+content_key字段变动
+new_content_key[2015-04-13] old_content_key[2015-04-20]
+no content key tv_video 6112  七龙珠z {u'data': {u'stdstl': u'0', u'title': '', u'tplt': u'tv_video', u'tplData': {u'resNum': 2, u'otherinfo': u'{}', u'url': u'http://v.baidu.com/comic_intro/?page=1&id=2836', u'listNum': 2, u'dispNum': 2, u'result': [{u'loc': u'http://v.baidu.com/comic_2836_7', u'title': u'\u4e03\u9f99\u73e0Z_\u7b2c\u4e8c\u90e8(\u7b2c7\u96c6)_\u66f4\u591a\u5267\u96c6\u9ad8\u6e05\u5728\u7ebf\u89c2\u770b_\u767e\u5ea6\u89c6\u9891', u'url': u'http://v.baidu.com/comic_intro/?page=1&id=2836', u'director': u'\u897f\u5c3e\u5927\u4ecb$', u'latestEp': u'291', u'videoPlay': {u'@text': '', u'@attr': {u'link': u'http://www.kumi.cn/donghua/57389_7.html', u'name': u'\u9177\u7c73', u'icon': u'http://vs3.bdstatic.com/logo/kumi.gif'}}}, {u'loc': u'http://v.baidu.com/comic_2823_7', u'title': u'\u4e03\u9f99\u73e0Z_\u7b2c\u4e8c\u90e8(\u7b2c7\u96c6)_\u66f4\u591a\u5267\u96c6\u9ad8\u6e05\u5728\u7ebf\u89c2\u770b_\u767e\u5ea6\u89c6\u9891', u'url': u'http://v.baidu.com/comic_intro/?page=1&id=2823', u'director': u'\u897f\u5c3e\u5927\u4ecb$', u'latestEp': u'291', u'videoPlay': {u'@text': '', u'@attr': {u'link': u'http://tv.sohu.com/20130423/n373706949.shtml?txid=29160bffec9cdd135700add26681570f', u'name': u'\u641c\u72d0', u'icon': u'http://vs3.bdstatic.com/logo/sohu.gif'}}}], u'normdisp': 1, u'TitleSuffix': u'baidu'}, u'srcid': 6112, u'stdstg': u'6112', u'url': u'http://v.baidu.com/comic_intro/?page=1&id=2836', u'position': 5}, u'error_msg': None, u'sample_id': u'5581'} {'update_time': '2015-04-21 18:02:40', 'title': '', 'url': u'http://v.baidu.com/comic_intro/?page=1&id=2836', 'srcid': 6112, 'content_key': None, 'total_episode': '', 'tplt': u'tv_video', 'is_end': 0, 'position': 5, 'type': 'comic', 'latest_episode': ''}
+line data is none 192
+七龙珠z not display
+贝瓦儿歌 not display
+贝瓦儿歌 not display
+贝瓦儿歌 not display
+贝瓦儿歌 not display
+贝瓦儿歌 not display
+贝瓦儿歌 not display
+clannad not display
+clannad not display
+日在校园 not display
+日在校园 not display
+position字段变动
+new_position[0] old_position[1]
+url字段变动
+new_url[http://www.iqiyi.com/a_19rrhb0yyt.html?vfm=2008_aldbd] old_url[http://v.baidu.com/show/11535.htm?fr=ala9&ty=26]
+srcid字段变动
+new_srcid[6869] old_srcid[1]
+title字段变动
+new_title[超级演说家第三季_全集高清视频在线观看_爱奇艺] old_title[超级演说家]
+tplt字段变动
+new_tplt[zx_new_mvideo] old_tplt[vd_tamasha]
+儿歌视频大全 not display
+儿歌视频大全 not display
+儿歌视频大全 not display
+儿歌视频大全 not display
+儿歌视频大全 not display
+儿歌视频大全 not display
+恢复展现
+结果恢复展现
+url字段变动
+new_url[http://www.iqiyi.com/a_19rrhc07sd.html?vfm=2008_aldbd] old_url[http://v.baidu.com/tv/21647.htm?fr=ala6&ty=22]
+srcid字段变动
+new_srcid[6889] old_srcid[1]
+title字段变动
+new_title[不死法医第一季_高清视频在线观看_爱奇艺] old_title[不死法医]
+content_key字段变动
+new_content_key[20/22] old_content_key[20/20]
+position字段变动
+new_position[0] old_position[1]
+tplt字段变动
+new_tplt[zx_new_tvideo] old_tplt[vd_sitcom]
+超神学院第三季 not display
+超神学院第三季 not display
+超神学院第三季 not display
+超神学院第三季 not display
+真正男子汉 not display
+真正男子汉 not display
+轩辕剑 not display
+轩辕剑 not display
+中国惊奇先生 not display
+中国惊奇先生 not display
+魂狩 not display
+魂狩 not display
+position字段变动
+new_position[2] old_position[1]
+路人女主的养成方法 not display
+路人女主的养成方法 not display
+新妹魔王的契约者 not display
+新妹魔王的契约者 not display
+妖怪名单 not display
+妖怪名单 not display
+斩赤红之瞳 not display
+斩赤红之瞳 not display
+何以笙箫默 not display
+何以笙箫默 not display
+尸兄 not display
+尸兄 not display
+仙剑奇侠传1 not display
+仙剑奇侠传1 not display
+终极教师 not display
+终极教师 not display
+王牌御史 not display
+王牌御史 not display
+我是传奇2 not display
+我是传奇2 not display
+超神游戏 not display
+超神游戏 not display
+境界触发者 not display
+境界触发者 not display
+绝对双刃 not display
+绝对双刃 not display
+url字段变动
+new_url[http://www.iqiyi.com/a_19rrgj9ubl.html?src=frbdaldjunest] old_url[http://v.baidu.com/comic/12492.htm?fr=ala8&ty=43]
+srcid字段变动
+new_srcid[12946] old_srcid[1]
+title字段变动
+new_title[新大头儿子小头爸爸_高清视频在线观看_爱奇艺] old_title[新大头儿子和小头爸爸 全集版]
+content_key字段变动
+new_content_key[52/0] old_content_key[115]
+tplt字段变动
+new_tplt[zx_tv_video] old_tplt[vd_comic]
+exo综艺 not display
+exo综艺 not display
+exo综艺 not display
+exo综艺 not display
+东京食尸鬼2 not display
+东京食尸鬼2 not display
+东京食尸鬼2 not display
+东京食尸鬼2 not display
+东京食尸鬼2 not display
+东京食尸鬼2 not display
+position字段变动
+new_position[0] old_position[1]
+position字段变动
+new_position[1] old_position[0]
+撸时代2 not display
+撸时代2 not display
+元气少女缘结神2 not display
+元气少女缘结神2 not display
+url字段变动
+new_url[http://v.baidu.com/tv/22414.htm?fr=ala6&ty=22] old_url[http://www.iqiyi.com/a_19rrhb0pft.html?vfm=bdaldpad]
+srcid字段变动
+new_srcid[1] old_srcid[13774]
+title字段变动
+new_title[九星天辰诀] old_title[《九星天辰诀》电视剧全集在线观看_爱奇艺]
+position字段变动
+new_position[4] old_position[1]
+tplt字段变动
+new_tplt[vd_sitcom] old_tplt[zx_tv_video]
+黄金拼图2 not display
+黄金拼图2 not display
+天使与龙的轮舞 not display
+天使与龙的轮舞 not display
+啦啦啦德玛西亚 not display
+啦啦啦德玛西亚 not display
+position字段变动
+new_position[0] old_position[1]

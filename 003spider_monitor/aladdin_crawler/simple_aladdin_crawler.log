@@ -1,0 +1,8 @@
+CRITICAL: 2015-04-30 13:44:34,884: simple_aladdin_crawler 18886 [simple_aladdin_crawler.py:68] IO error: input_path[data/query.dict] output_path[123]
+CRITICAL: 2015-04-30 13:46:09,010: simple_aladdin_crawler 25160 [simple_aladdin_crawler.py:68] IO error: input_path[data/query.dict] output_path[123]
+CRITICAL: 2015-04-30 13:46:40,630: simple_aladdin_crawler 26327 [simple_aladdin_crawler.py:68] IO error: input_path[../aladdin_query_check/data/monitor_query.dict] output_path[123]
+CRITICAL: 2015-04-30 13:48:37,350: simple_aladdin_crawler 1323 [simple_aladdin_crawler.py:68] IO error: input_path[../aladdin_query_check/data/monitor_query.dict] output_path[123]
+CRITICAL: 2015-04-30 13:51:22,188: simple_aladdin_crawler 11443 [simple_aladdin_crawler.py:68] IO error: input_path[data/query.dict] output_path[./123]
+CRITICAL: 2015-04-30 13:58:25,024: simple_aladdin_crawler 5205 [simple_aladdin_crawler.py:68] IO error: input_path[data/query.dict] output_path[./123]
+CRITICAL: 2015-04-30 14:02:32,723: simple_aladdin_crawler 19926 [simple_aladdin_crawler.py:68] IO error: input_path[data/query.dict] output_path[./123]
+CRITICAL: 2015-04-30 14:03:04,386: simple_aladdin_crawler 23073 [simple_aladdin_crawler.py:69] IO error: input_path[data/query.dict] output_path[./123]
